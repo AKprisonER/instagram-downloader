@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="fullhdkey"
+        android:title="@string/pref_title_fullhd_images" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="videokey"
+        android:title="@string/pref_download_video" />
+
+
+</PreferenceScreen>
